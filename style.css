@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=PT+Sans&family=Ysabeau+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=PT+Sans&family=Roboto+Slab&family=Ysabeau+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+#navbar{
+    margin-top: 0;
+    position: fixed ;
+    opacity: 1;
+    width: 100%;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #07072e;
+    padding: 20px, 26px;
+    font-weight: bold;
+    color: white;
+
+}
+#navbar ul{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+    color: white;
+   text-decoration: none;
+    padding: 15px 50px;
+}
+#navbar li a:hover{
+    color: orange;  
+}
+ #logo{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+   
+}
+#logo img{
+    margin-top: 3px;
+    width: 44px;
+    height: 44px;
+    color: white;
+    filter: invert(100%) !important;
+    -webkit-filter: invert(100%);
+}
+
+#sponsorsSection{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 200px;
+    background-color: rgb(36, 36, 55);
+}
+#sponsorsSection h2{
+    padding-top: 14px;
+   text-align: center;
+}
+#sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+#sponsors img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    max-width: 100px;
+    margin: auto;
+    margin:2px 15px;
+    padding: 2px 12px;
+    border-radius: 50%;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    font-family: 'PT Sans', sans-serif;
+    color: black;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: bold;
+}
+
+@media screen and (min-width: 661px) and (max-width:1480px){
+     
+    #introSection{
+        color: white;
+        padding-bottom: 3%;
+        font-family: 'Nunito Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 54px;
+        align-items: center;
+        background:center center/cover no-repeat url('static/ddd1.jpg');
+        height: 500px;
+        background-color: red;
+    }
+    #introSection div.small{
+        
+        font-size: 45px;
+        padding: 5px;
+    }
+   
+    #missionSection{
+        background-color: azure;
+        color: black;
+        font-family: 'Nunito Sans', sans-serif;
+        height: 45%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    #missionSection h2{
+        font-family: 'Nunito Sans', sans-serif;
+        padding-top: 4rem;
+       text-align: center;
+    }
+    .card{
+        background-color:red ;
+        display: block;
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        margin: 8px 14px;
+        padding: 6px 33px;
+    }
+    .card-box{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 402px;
+    }
+    .card-img{
+        height: 130px;
+        padding:0px 14px;
+        margin: 5px 9px;
+    }
+    .card-img img{
+        mix-blend-mode: multiply;
+        height: inherit;
+    }
+    .card-content{
+        padding: 0 10px;
+    }
+    .card-content p{
+        font-size: bold;
+    }
+    
+    
+    #missionSection h3{
+        text-align: center;
+        margin-top: 12px;
+  
+}
+}
+
+@media screen and (min-width:1481px){
+#introSection{
+    color: white;
+    padding-bottom: 3%;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 65px;
+    align-items: center;
+    background:center center/cover no-repeat url('static/ddd1.jpg');
+    height: 500px;
+    background-color: red;
+}
+#introSection div.small{
+    
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    background-color:azure;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    height: inherit;
+    width: 80%;
+    margin:auto;
+}
+#missionSection h2{
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 14px;
+   text-align: center;
+}
+.card{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin: 25px 14px;
+    padding: 2px 4px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    height: 60%;
+}
+.card-img{
+    height: 130px;
+    padding:0px 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    mix-blend-mode: multiply;
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: bold;
+}
+
+
+#missionSection h3{
+    text-align: center;
+    margin-top: 12px;
+}
+
+#sponsorsSection{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 200px;
+    background-color: rgb(36, 36, 55);
+}
+#sponsorsSection h2{
+    padding-top: 14px;
+   text-align: center;
+}
+#sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+}
+#sponsors img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    max-width: 100px;
+    margin: auto;
+    margin:2px 15px;
+    padding: 2px 12px;
+    border-radius: 50%;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+}

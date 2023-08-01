@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=PT+Sans&family=Ysabeau+SC&display=swap');
+
+/* h1{
+    text-align: center;
+    margin: 10px 8px;
+} */
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myinput {
+    font-size: 16px;
+    width: 50%;
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid #920606;
+    border-radius: 14px;
+    outline: none;
+}
+.container{
+    background: center center/cover no-repeat url('static/ddd1.jpg');
+    min-height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container h1{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin: 10px 8px;
+}
+
+.btn{
+    padding: 4px 84px;
+    margin: 20px;
+    font-size: 20px;
+    border: 2px solid #920606;
+    border-radius: 16px;
+    color: white;
+    background-color: #050101;
+    outline: none;
+}
+#footer{
+    background-color: aliceblue;
+    color: black;
+}

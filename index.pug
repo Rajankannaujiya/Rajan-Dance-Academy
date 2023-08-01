@@ -1,0 +1,61 @@
+
+doctype html
+html
+  //- meta(content='width=device-width' initial-scale='1' shrink-to-fit='no' name='viewport')
+  //- link(rel="stylesheet", media="screen and (max-width: 1170px)", href="../static/style2.css")
+  style 
+    include ../static/style.css
+  
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="static/danceg.jpeg")
+                |RDA
+            li #[a(href="/" ) Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Rajan's Dance Academy
+        div.small Where Passion Meets Movement!
+        p Come join us We will make a perfect dancer
+    section#missionSection
+          h2 Our Mission
+          div.card 
+            h3 Dance perfection
+            div.card-box 
+              div.card-img 
+                img(src="static/thdd11.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India. We will make you a perfect dancer.
+          div.card 
+            h3 Dance the way you like 
+            div.card-box 
+              div.card-img 
+                img(src="static/img/thdddd.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India. Find your dance type. 
+          div.card 
+            h3 Expert Guidance
+            div.card-box 
+              div.card-img 
+                img(src="static/img/dancec.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India. The mentors will teach you the bext of what they know. 
+
+    section#sponsorsSection
+          h2 Our Sponsors
+          div#sponsors 
+            img(src="static/img/thdcad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/thdacad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dacad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac3.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac2.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac1.jpeg", alt="sponsor image" Class="spimage")
+    footer#footer
+      | copywrite © 2023 RajanDanceAcademy.com | All rights reserved
+    script 
+      include ../static/index.js

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position:static;
+    margin-top:4%;
+    background-color: aliceblue;
+    height: 100%;
+    width:100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content{
+    background: center center/cover no-repeat url('static/ddd1.jpg');
+    background-color: azure;
+    width: 80%;
+    height: 100%;
+    display: -ms-inline-flexbox;
+    text-align: center;
+    justify-content: center;
+    color: rgb(11, 179, 20);
+
+}
+.content h1{
+    margin: 6px 4px;
+    padding: 12px;
+    color: white;
+}
+.content strong{
+    font-size: larger;
+    padding:2%;
+    color: rgb(11, 179, 20);
+}
+.content .contentp{
+    font-size: large;
+    padding:2%;
+    color: rgb(11, 179, 20);
+}
+
+.box {
+    display: inline-flex;
+    flex-direction: row;
+    height: inherit;
+    width: 40%;
+    background-color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.box h3{
+    color: whitesmoke;
+    margin: 4px;
+    padding: 4px;
+    font-size: 1.8rem;
+}
+.box p{
+    color: white;
+    margin: 4px;
+    padding: 4px;
+    font-size: 1rem;
+}
+
+.btn{
+    background-color: red;
+    font-size: large;
+    text-align: center;
+    margin: 12px;
+    margin-bottom: 5%;
+    padding: 1% 4%;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+

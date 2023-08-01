@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='static/index.js')
+
+block style 
+ style 
+    include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to Rajan's Dance Academy
+        div.small Where Passion Meets Movement!
+          p Come join us We will make a perfect dancer
+    section#missionSection
+          h2 Our Mission
+          div.card 
+            h3 Dance perfection
+            div.card-box 
+              div.card-img 
+                img(src="static/thdd11.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India. We will make you a perfect dancer.
+          div.card 
+            h3 Dance the way you like 
+            div.card-box 
+              div.card-img 
+                img(src="static/img/thdddd.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India. Find your dance type. The mentors will teach you the bext of what they know.  
+          div.card 
+            h3 Expert Guidance
+            div.card-box 
+              div.card-img 
+                img(src="static/img/dancec.jpeg", alt="image not found")
+              div.card-content
+                p this is the bext dance academy in India  
+
+    section#sponsorsSection
+          h2 Our Sponsors
+          div#sponsors 
+            img(src="static/img/thdcad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/thdacad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dacad.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac3.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac2.jpeg", alt="sponsor image" Class="spimage")
+            img(src="static/img/dac1.jpeg", alt="sponsor image" Class="spimage")
