@@ -16,7 +16,7 @@
 }
 
 .content{
-    background: center center/cover no-repeat url('static/ddd1.jpg');
+    background: center center/cover no-repeat url('ddd1.jpg');
     background-color: azure;
     width: 80%;
     height: 100%;
