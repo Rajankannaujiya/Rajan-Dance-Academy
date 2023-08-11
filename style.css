@@ -108,7 +108,7 @@ body{
         justify-content: center;
         font-size: 54px;
         align-items: center;
-        background:center center/cover no-repeat url('static/ddd1.jpg');
+        background:center center/cover no-repeat url('ddd1.jpg');
         height: 500px;
         background-color: red;
     }
@@ -182,7 +182,7 @@ body{
     justify-content: center;
     font-size: 65px;
     align-items: center;
-    background:center center/cover no-repeat url('static/ddd1.jpg');
+    background:center center/cover no-repeat url('ddd1.jpg');
     height: 500px;
     background-color: red;
 }
