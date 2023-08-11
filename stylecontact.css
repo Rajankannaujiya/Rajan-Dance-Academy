@@ -23,7 +23,7 @@
     outline: none;
 }
 .container{
-    background: center center/cover no-repeat url('static/ddd1.jpg');
+    background: center center/cover no-repeat url('ddd1.jpg');
     min-height: 98vh;
     display: flex;
     align-items: center;
